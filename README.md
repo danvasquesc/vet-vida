@@ -37,25 +37,25 @@ Opção mais simples:
 
 ### 3. FUNCIONALIDADES
 
-- Cadastro de animais
-- Registro de serviços realizados (consulta, exame, vacina, cirurgia etc.)
-- Consulta do histórico de serviços por animal
-- Painel com indicadores simples
-- Persistência em banco de dados SQLite
+- Cadastro de animais <br>
+- Registro de serviços realizados (consulta, exame, vacina, cirurgia etc.) <br>
+- Consulta do histórico de serviços por animal <br>
+- Painel com indicadores simples <br>
+- Persistência em banco de dados SQLite <br>
 
 <br>
 
 ### 4. ESTRUTURA DO PROJETO
 
-frontend/
+frontend/<br>
   index.html      -> estrutura das telas
   styles.css      -> estilos visuais
   app.js          -> interação com a API
 
-backend/
+backend/<br>
   server.py       -> servidor web e API REST
 
-database/
+database/<br>
   schema.sql      -> criação das tabelas SQL
   seed.sql        -> dados de exemplo
   vetclinic.db    -> criado automaticamente na primeira execução
@@ -66,12 +66,12 @@ documentacao.pdf -> documentação do trabalho
 
 ### 5. ROTAS PRINCIPAIS DA API
 
-GET  /api/animals               -> lista os animais
-POST /api/animals               -> cadastra um animal
-GET  /api/services              -> lista os serviços
-POST /api/services              -> registra um serviço
-GET  /api/animals/{id}/history  -> histórico de um animal
-GET  /api/stats                 -> indicadores do painel
+GET  /api/animals               -> lista os animais <br>
+POST /api/animals               -> cadastra um animal <br>
+GET  /api/services              -> lista os serviços <br>
+POST /api/services              -> registra um serviço <br>
+GET  /api/animals/{id}/history  -> histórico de um animal <br>
+GET  /api/stats                 -> indicadores do painel <br>
 
 <br>
 
@@ -82,12 +82,3 @@ Na primeira execução o sistema cadastra automaticamente alguns animais e servi
 Para zerar os dados, encerre o servidor, apague o arquivo:
 database/vetclinic.db
 Depois execute o sistema novamente.
-
-<br>
-
-### 7. ENTREGA
-
-Antes de enviar ao Moodle:
-- Substitua "XXXXXX" pelo seu RA no nome da pasta/arquivo ZIP.
-- Confira também os campos NOME DO ALUNO e RA na documentação PDF.
-- Teste o sistema uma última vez.
