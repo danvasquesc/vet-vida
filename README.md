@@ -46,7 +46,7 @@ Opção mais simples:
 <br>
 
 ### 4. ESTRUTURA DO PROJETO
-============================================================
+
 frontend/
   index.html      -> estrutura das telas
   styles.css      -> estilos visuais
@@ -62,9 +62,10 @@ database/
 
 documentacao.pdf -> documentação do trabalho
 
-============================================================
-5. ROTAS PRINCIPAIS DA API
-============================================================
+<br>
+
+### 5. ROTAS PRINCIPAIS DA API
+
 GET  /api/animals               -> lista os animais
 POST /api/animals               -> cadastra um animal
 GET  /api/services              -> lista os serviços
@@ -72,18 +73,20 @@ POST /api/services              -> registra um serviço
 GET  /api/animals/{id}/history  -> histórico de um animal
 GET  /api/stats                 -> indicadores do painel
 
-============================================================
-6. DADOS DE EXEMPLO
-============================================================
+<br>
+
+### 6. DADOS DE EXEMPLO
+
 Na primeira execução o sistema cadastra automaticamente alguns animais e serviços de demonstração, apenas para facilitar os testes e os prints.
 
 Para zerar os dados, encerre o servidor, apague o arquivo:
 database/vetclinic.db
 Depois execute o sistema novamente.
 
-============================================================
-7. ENTREGA
-============================================================
+<br>
+
+### 7. ENTREGA
+
 Antes de enviar ao Moodle:
 - Substitua "XXXXXX" pelo seu RA no nome da pasta/arquivo ZIP.
 - Confira também os campos NOME DO ALUNO e RA na documentação PDF.
